@@ -262,51 +262,50 @@ h2{
    
     font-weight: bolder;
 }
-.footer{
+footer{
     display: flex;
-    justify-content: space-between;
-
-
+    justify-content: space-around;
+    align-items: center;
+   
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
 }
+
 .img-footer{
     width: 300px;
 }
 
-<!-- .info-footer{ 
+/* .info-footer{ 
     display:flex;
     font-family: 'Quicksand', sans-serif;
     
-} -->
+}  */
 .footer-web1{
-    display: flex;
-    padding-left: 20%;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
+
+    margin-left:2% ;
 
 }
 .footer-web2{
-    display: flex;
-    padding-left: 40%;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
+    
+    margin-left:2%;
+    
 
 }
 .footer-web3{
-    display: flex;
-    padding-left: 60%;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
-
+    
+    margin-left: 2%;
+     
     }
 .h7{
     color: #00a69c;
-    font-size: 50px;
+    font-size: 3rem;
 
 }
 .p-footer{
 
  color: #0c1753;
- font-size: 50px;
+ font-size: 2rem;
+ list-style: none;
 }
 .background-last{
     height: 80px;
